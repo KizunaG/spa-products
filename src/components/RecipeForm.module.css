@@ -1,0 +1,11 @@
+.form { display: grid; gap: 12px; }
+.row { display: grid; gap: 6px; }
+.grid2 { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+
+.input, .select, .textarea {
+  width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px;
+}
+.actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px; }
+.btn { border: 1px solid #e5e7eb; background:#111827; color:#fff; border-radius:6px; padding:8px 12px; cursor:pointer; }
+.btn.secondary { background:#fff; color:#111827; }
+.error { color: #b91c1c; font-size: 13px; }
